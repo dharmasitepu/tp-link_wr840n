@@ -1,0 +1,17 @@
+Status: 500 Internal Server Error
+Content-Disposition: attachment; filename="backup-OpenWrt-2021-10-11.tar.gz"
+Content-Type: application/x-targz
+Cache-Control: no-cache
+Expires: 0
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+
+Failed to execute call dispatcher target for entry '/admin/system/flashops/backup'.
+The called action terminated with an exception:
+/usr/lib/lua/luci/ltn12.lua:306: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	/usr/lib/lua/luci/ltn12.lua:306: in function 'all'
+	/usr/lib/lua/luci/controller/admin/system.lua:318: in function </usr/lib/lua/luci/controller/admin/system.lua:308>
+	(tail call): ?
